@@ -5,6 +5,7 @@ Customer Shopping Behavior Analysis
 A  project that looks at 3,900 customer purchases to find out what makes people spend more, and how a business can use that to make better decisions.
 
 What is this project about?
+
 We had a dataset of shopping transactions. The goal was to clean the data, study it, run some SQL queries, build a dashboard, and find useful patterns — like which customers spend the most, which products are rated best, and what marketing ideas could increase sales.
 
 About the Data
@@ -38,6 +39,7 @@ What the Dashboard Shows
 •	How customers are grouped: new, returning, or loyal
 
 What I Found:-
+
 •	Gender: Women spend slightly more overall than men
 •	Discounts: Some customers use discounts but are still big spenders — a good group to target with special offers
 •	Best products: Blouses and dresses get the highest ratings, shirts are close behind
@@ -80,14 +82,6 @@ Install and start the MySQL Server.
 Create a new database.
 Import the dataset into MySQL.
 Update the database connection details in the config.py file with your MySQL credentials.
-
-Example:
-
-DB_HOST = "localhost"
-DB_PORT = 3306
-DB_NAME = "your_database_name"
-DB_USER = "your_username"
-DB_PASSWORD = "your_password"
 
 Step 3: Run the Python Analysis Script
 
